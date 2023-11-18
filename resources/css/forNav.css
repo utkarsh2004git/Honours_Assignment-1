@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    background-color: #ccc;
+    background-color: rgba(62, 62, 62, 0.919)
 
 }
 .head-items {
@@ -25,7 +26,7 @@
     transition: all 0.4s;
 }
 .nav-tag .logo-part img:hover{
-    filter: drop-shadow(12px 12px 7px rgba(255, 0, 0, 0.9));
+    scale: 1.2;
     
 }
 .head-items ul{
@@ -38,21 +39,27 @@
     padding: 0.4rem;
     transition: all 0.5s;
     cursor: pointer;
-    color: black;
+    color: white;
     text-decoration: none;          
     position: relative;
 }
 .head-items ul li a:hover{
-    color: rgb(0, 0, 255);
-    text-shadow: 
+    color: rgb(108, 187, 255);
+    /* text-shadow: 
     0 0 3px #fff,
-    0 0 5px rgb(61, 61, 255);
+    0 0 5px rgb(61, 61, 255); */
+}
+.head-items ul li{
+    transition: all 0.3s ease-in-out;
+}
+.head-items ul li:hover{
+    scale: 1.1;
 }
 .head-items ul li a::after{
     content: '';
     height: 3px;
     width: 0;
-    background-color: black;
+    background-color: white;
     display: block;
     position: absolute;
     left: 0;
@@ -62,7 +69,4 @@
 .head-items ul li a:hover::after{
     width: 100%;
     opacity: 1;
-}
-.head-items ul li a:active{
-    color: rgb(0, 0, 255);
 }

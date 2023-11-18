@@ -5,7 +5,7 @@
     #history::after {
         content: '';
         height: 3px;
-        background-color: black;
+        background-color: white;
         display: block;
         position: absolute;
         left: 0;

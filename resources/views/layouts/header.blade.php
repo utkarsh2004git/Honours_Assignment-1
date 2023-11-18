@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/forNav.css')}}">
-    <script src="{{asset('script/forNav.js')}}"></script>
     @vite('resources/css/app.css')
+    @vite('resources/css/forNav.css')
     @stack('title')
 </head>
 <body>
     <header>
         <nav class="nav-tag">
             <div class="logo-part">
-                <img src="{{asset('images/logo.png')}}" alt="">
+                <a href="https://laravel.com/" target="_blank"><img src='images/logo.png' alt=""></a>
             </div>
             <div class="head-items">
                 <ul>

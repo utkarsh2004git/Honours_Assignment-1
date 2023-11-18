@@ -2,10 +2,13 @@
 @push('title')
 <title>Book</title>
 <style>
+        #book{
+        color: rgb(108, 187, 255);
+    }
     #book::after {
         content: '';
         height: 3px;
-        background-color: black;
+        background-color: white;
         display: block;
         position: absolute;
         left: 0;
