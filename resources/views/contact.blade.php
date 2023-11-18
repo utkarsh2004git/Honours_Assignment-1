@@ -13,5 +13,5 @@
         opacity: 1;
     }
 </style>
-<h1>This is Contact</h1>
+<h1 class="">This is Contact</h1>
 @include('layouts.footer')
