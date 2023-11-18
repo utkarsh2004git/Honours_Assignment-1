@@ -6,7 +6,7 @@
 
 </style>
 
-<div class="container">
+<div class="content">
     <div class="info">
         <div class="name">
             <h3 class="main-heading">B. R. Ambedkar</h3>

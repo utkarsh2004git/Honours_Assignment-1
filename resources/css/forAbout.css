@@ -11,3 +11,72 @@
     width: 100%;
     opacity: 1;
 }
+.content{
+    background-color: rgb(108, 187, 255);
+    width: 100%;
+    padding-bottom: 1rem;
+
+}
+.upperpart{
+    padding: 3rem 6rem;
+}
+.main-heading h3{
+    font-size: 4rem;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    animation: scaleText 1.5s infinite;
+}
+@keyframes scaleText {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.11);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.headp{
+    font-size: 1.3rem;
+    color: white;
+    width: 70%;
+}
+
+.data{
+    width: 95%;
+    margin: auto;
+    border: 6px solid white;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+
+}
+.data .para{
+    padding: 1rem 0 1rem 3rem;
+    
+}
+.data .para h4{
+    font-size: 2.5rem;
+    font-weight:700;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    color: rgb(255, 203, 106);
+    cursor: pointer;
+    
+}
+
+.data .para p{
+    font-size: 1.2rem;
+    width: 80%;
+}
+.rightp img{
+    height: 11.8125rem;
+    width: 35rem;
+    transform: scaleX(-1);
+    cursor: pointer;
+    transition: all 0.5s ;
+}
+.rightp img:hover{
+    scale: 1.2;
+}

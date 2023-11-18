@@ -1,5 +1,6 @@
 @vite('resources/css/forFooter.css')
-<div class="line"></div>
+<div class="line" style="margin-left: -5px;"></div>
+<div class="footer">
 <footer class="flex flex-col  p-4">
     <div class="logos bg-white flex justify-center p-3 gap-8 rounded-xl">
         <a href="https://github.com/utkarsh2004git" target="_blank"><img class="h-10  transition-all hover:scale-125 duration-500" src='images/github.svg'  alt="github"></a>
@@ -13,6 +14,7 @@
         <span>Designed and Developed by Utkarsh Shahare</span>
     </div>
 </footer>
+</div>
 
 </body>
 </html>

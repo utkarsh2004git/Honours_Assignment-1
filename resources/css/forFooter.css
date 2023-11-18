@@ -4,10 +4,20 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
-footer{
+.footer{
+    margin-left: -5px;
     background-color: rgba(63, 63, 63, 0.919);
+    width: 120%;
 }
 /* Added properties with tailwind css */
 .logos{
     background-color: rgb(108, 187, 255);
+    width: 98vw;
+}
+.line{
+    /* margin-left: -5px; */
+    width: 120%;
+}
+span{
+    margin-right: 17rem;
 }
