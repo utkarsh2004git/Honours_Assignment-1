@@ -70,3 +70,8 @@
     width: 100%;
     opacity: 1;
 }
+.line{
+    height: 9px;
+    background-color: #808080;
+    width: 100%;
+}

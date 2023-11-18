@@ -24,4 +24,5 @@
                 </ul>
             </div>
         </nav>
+        <div class="line"></div>
     </header>
