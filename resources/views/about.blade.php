@@ -1,6 +1,6 @@
-@include('layouts.header')
+@extends('layouts.main')
 @push('title')
-
+@section('main-section')
 <title>About</title>
 @vite('resources/css/forAbout.css')
 <div class="content">
@@ -38,4 +38,4 @@
         </div>
     </div>
 </div>
-@include('layouts.footer')
+@endsection

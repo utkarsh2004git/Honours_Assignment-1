@@ -12,3 +12,73 @@
     width: 100%;
     opacity: 1;
 }
+.content{
+    background-color:  rgb(108, 187, 255);
+    padding: 2rem 5rem;
+}
+.inner{
+    border: 6px solid white;
+    border-radius: 1rem;
+    background-color: #ccc;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.image img{
+    height: 20rem;
+    padding: 1rem;
+    width: 28.9rem;
+    border: 7px solid blue;
+}
+.information{
+    padding: 1rem;
+
+}
+.information p{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color:black;
+}
+.image{
+    /* background: url(../../public/images/imgContact1.jpg); */
+    height: 21rem;
+    width: 30rem;
+    background-size: 100% 100%;
+    animation: change 25s infinite  ;
+
+    padding: 0.5rem;
+}
+@keyframes change {
+    0%{
+        background-image: url(../../public/images/imgContact1.jpg);
+        
+
+    }
+    25%{
+        background-image: url(../../public/images/imgContact2.jpg);
+        
+    }
+    50%{
+        background-image: url(../../public/images/imgContact3.jpg);
+        
+    }
+    75%{
+        background-image: url(../../public/images/imgContact4.png);
+        
+    }
+    100%{
+        background-image: url(../../public/images/imgContact1.jpg);
+        
+    }
+}
+.image-slider{
+    border: 10px solid blue;
+    padding: 0.5rem;
+    background-color:rgb(108, 187, 255) ;
+    border-radius: 1rem;
+}

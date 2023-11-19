@@ -1,7 +1,8 @@
-@include('layouts.header')
+@extends('layouts.main')
 @push('title')
 <title>Book</title>
 @vite('resources/css/forBook.css')
+@section('main-section')
 <div class="content">
     <div class="heading">
         <h3>Books Written By Dr. B.R. Ambedkar</h3>
@@ -34,4 +35,4 @@
         </div>
     </div>
 </div>
-@include('layouts.footer')
+@endsection

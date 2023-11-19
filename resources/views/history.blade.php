@@ -1,7 +1,8 @@
-@include('layouts.header')
+@extends('layouts.main')
 @push('title')
 <title>History</title>
 @vite('resources/css/forHistory.css')
+@section('main-section')
 <div class="content">
     <div class="heading">
         <h3><span>History of Dr. B.R. Ambedkar</span></h3>
@@ -32,4 +33,4 @@
         </div>
     </div>
 </div>
-@include('layouts.footer')
+@endsection

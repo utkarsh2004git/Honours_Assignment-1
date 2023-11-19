@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/forNav.css')}}">
-    @vite('resources/css/app.css')
-    @vite('resources/css/forNav.css')
-    @stack('title')
-</head>
-<body>
+@vite('resources/css/forNav.css')
+@vite('resources/css/app.css')
     <header>
         <nav class="nav-tag">
             <div class="logo-part">
@@ -24,5 +15,5 @@
                 </ul>
             </div>
         </nav>
-        <!-- <div class="line"></div> -->
+        <div class="line"></div>
     </header>
