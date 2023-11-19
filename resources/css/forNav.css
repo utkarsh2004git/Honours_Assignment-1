@@ -75,3 +75,19 @@
     background-color: #808080;
     width: 200px;
 }
+
+@media only screen and (min-width: 0) and (max-width: 680px){
+    .nav-tag{
+        flex-direction: column;
+
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 475px){
+    html{
+        font-size: 13px;
+    }
+    .nav-tag{
+        flex-direction: column;
+
+    }
+}

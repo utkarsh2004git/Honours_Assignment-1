@@ -5,15 +5,15 @@
 @vite('resources/css/forAbout.css')
 <div class="content">
     <div class="upperpart ">
-    <div class="main-heading flex">
-        <div class="leftp">
-            <h3 class="">About Dr. B.R. Ambedkar</h3>
-        <p class="headp">Welcome to our About page, where we celebrate the life and legacy of one of India's foremost social reformers and architects of its constitutional framework, Dr. Bhimrao Ramji Ambedkar.</p>
+        <div class="main-heading flex">
+            <div class="leftp">
+                <h3 class="">About Dr. B.R. Ambedkar</h3>
+            <p class="headp">Welcome to our About page, where we celebrate the life and legacy of one of India's foremost social reformers and architects of its constitutional framework, Dr. Bhimrao Ramji Ambedkar.</p>
+            </div>
+            <div class="rightp">
+                <img src="images/imgForAbout.jpeg" alt="image">
+            </div>
         </div>
-        <div class="rightp">
-            <img src="images/imgForAbout.jpeg" alt="image">
-        </div>
-    </div>
     </div>
     <div class="data">
         <div class="para1 para">

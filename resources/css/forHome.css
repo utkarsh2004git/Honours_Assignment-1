@@ -19,6 +19,8 @@
     position: relative;
     height: 110vh;
     background-color: rgb(108, 187, 255);
+    width: 100%;
+    overflow: hidden;
 }
 
 .image img{
@@ -43,6 +45,7 @@
     padding: 1.5rem;
     border-radius: 1rem;   
     color: blue;
+    margin-left: 2rem;
 } 
 .info .main-heading:hover{
     /* background-color:rgb(108, 187, 255) ; */
@@ -71,7 +74,288 @@
     font-size: 1.3rem;
     width: 60%;
     color: black;
+    background-color: #ccc;  
+    padding: 2rem;
+    border-radius: 1rem;
 }
 .information p{
     padding: 0.5rem 0;
+}
+
+@media only screen and (min-width: 1368px) and (max-width: 1496px) {
+
+    html {
+      font-size: 15px;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 1367px) {
+    html {
+        font-size: 15px;
+    }
+    .information p{
+        font-size: 1.11rem;
+    }
+    .image img{
+        height: 40rem;
+        right: -1rem;
+        top: 8rem;
+    }
+    .image img:hover{
+        height: 40rem;
+        right: 2rem;
+    }
+    .content{
+        height: 100vh;
+    }
+    /* .information{
+        width: 50%;
+    } */
+}
+@media only screen and (min-width: 0) and (max-width: 1228px) {
+    .information{
+        width: 55%;
+    }
+    .content{
+        height: 110vh;
+    }
+    .image img{
+        top: 6rem;
+
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 1125px) {
+    html{
+        font-size: 13px;
+    }
+    .content{
+        height: 100vh;
+    }
+    .info .main-heading{
+        font-size: 5rem;
+        top: 3rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 986px) {
+    html{
+        font-size: 13px;
+    }
+    .image img{
+        height: 35rem;
+        top: 11.5rem;
+    }
+    .image img:hover{
+        top: 12.5rem;
+        right: 2rem;
+        height: 35rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 900px) {
+    html{
+        font-size: 13px;
+    }
+    .information p{
+        font-size: 1rem;
+    }
+    .image img{
+        height: 32rem;
+        top: 12.5rem;
+    }
+    .image img:hover{
+        height: 32rem;
+        top: 12.5rem;
+        right: 2rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 800px) {
+    html{
+        font-size: 13px;
+    }
+    .information {
+        font-size: 0.9rem;
+        left: 2rem;
+    }
+    .image img{
+        height: 35rem;
+        top: 12.5rem;
+    }
+    .image img:hover{
+        height: 35rem;
+        top: 12.5rem;
+    }
+
+    .info .main-heading{
+        left: 2rem;
+        padding: 0;
+        font: 3.5rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 730px) {
+
+        
+        .info .main-heading{
+            font-size: 3.5rem;
+
+        }
+        .image img{
+            top: 8rem;
+            height: 32rem;
+        }
+        .image img:hover{
+            height: 32rem;
+            top: 8rem;
+            right: 1rem;
+        }
+        .information p{
+            font-size: 0.9rem;
+            
+        }
+        .information{
+            top: 10rem;
+        }
+        .content{
+            height: 90vh;
+        }
+    }
+@media only screen and (min-width: 0) and (max-width: 650px){
+        .information{
+            top: 40rem;
+            width: 80%;
+            left: 4.3rem;
+        }
+        .information p{
+            font-size: 1.2rem;
+        }
+        .image img{
+            top:9rem;
+            height: 30rem;
+            left: 30%;
+        }
+        .image img:hover{
+            scale: 1.01;
+        }
+        .info .name .main-heading::after{
+            height: 4px;
+        }
+        .content{
+            height: 173vh;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+        } 
+
+
+        .info .name .main-heading{
+            position: static;
+            text-align: center;
+
+        } 
+        .name{
+            display: flex;
+            align-items: center;
+        }
+        .info .name .main-heading::after{
+            height: 5px;
+            left: 10rem;        
+        }
+        .info .main-heading:hover::after{
+            width: 60%;
+            opacity: 1;
+        }
+}
+@media only screen and (min-width: 0) and (max-width: 550px){
+    .info .name .main-heading::after{
+        left: 9.3rem;        
+    }
+    .info .main-heading:hover::after{
+        width: 60%;
+        opacity: 1;
+    }
+    .image img{
+        left: 9rem;
+    }
+    .content{
+        height: 185vh;
+    }
+    .info .name .main-heading::after{
+        left: 7.6rem;        
+    }
+    .info .main-heading:hover::after{
+        width: 66%;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 460px){
+    .info .name .main-heading::after{
+        left: 9.3rem;        
+    }
+    .info .main-heading:hover::after{
+        width: 63%;
+        opacity: 1;
+    }
+    .image img{
+        left: 8rem;
+    }
+    .content{
+        height: 192vh;
+    }
+    ::after{
+        left: 6rem;        
+    }
+    .info .main-heading:hover::after{
+        width: 72%;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 440px){
+    .image img{
+        left: 6.5rem;
+    }
+    .content{
+        height: 198vh;
+    }
+    .information{
+        left:3.3rem;
+    }
+    .info .name .main-heading::after{
+        left: 5rem;        
+    }
+    .info .main-heading:hover::after{
+        width: 76%;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 420px){
+
+    .content{
+        height: 150vh;
+    }
+    .image img{
+        height: 32rem;
+        left: 7.6rem;
+    }
+    .image img:hover{
+        height: 32rem;
+        left: 7rem;
+    }
+    .content{
+        height: 141vh;
+    }
+    .information{
+        left: 4.2rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 320px){
+
+    .content{
+        height: 151vh;
+    }
+    .image img{
+        height: 29rem;
+    }
+    .image img:hover{
+        height: 32rem;
+        top: 8rem;
+        left: 3rem;
+
+    }
 }

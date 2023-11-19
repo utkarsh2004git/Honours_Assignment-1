@@ -50,6 +50,7 @@
     border: 6px solid white;
     border-radius: 1rem;
     padding: 1rem 3rem;
+    background-color: #ccc;
 
 }
 .data .para{
@@ -61,7 +62,7 @@
     font-weight:700;
     text-decoration: underline;
     padding: 0.5rem 0;
-    color: rgb(255, 203, 106);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     
 }
@@ -79,4 +80,140 @@
 }
 .rightp img:hover{
     scale: 1.2;
+}
+@media only screen and (min-width: 0) and (max-width: 1200px){
+    html{
+        font-size: 15px;
+    }
+    .leftp h3{
+        font-size: 3.3rem;
+    }
+    .headp{
+        font-size: 1.2rem;
+        
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 1000px){
+    html{
+        font-size: 13px;
+    }
+    .leftp h3{
+        font-size: 3rem;
+    }
+    .rightp img{
+        height: 11rem;
+        width: 43rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 810px){
+    html{
+        font-size: 12px;
+    }
+    .leftp h3{
+        font-size: 2.5rem;
+    }
+    .rightp img{
+        height: 11rem;
+        width: 43rem;
+    }
+    .data .para p{
+        font-size: 1.1rem;
+
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 700px){
+    html{
+        font-size: 10px;
+    }
+    .data .para p{
+        font-size: 1.05rem;
+
+    }
+    .data .para h4{
+        font-size: 2rem;
+    }
+    .headp{
+        width: 100%;
+        
+    }
+
+}
+@media only screen and (min-width: 0) and (max-width: 550px){
+    html{
+        font-size: 8px;
+    }
+    .data .para p{
+        font-size: 1.05rem;
+
+    }
+    .data .para h4{
+        font-size: 2rem;
+    }
+
+}
+@media only screen and (min-width: 0) and (max-width: 450px){
+    .upperpart{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftp{
+        padding: 1.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftp h3{
+        font-size: 3.2rem;
+    }
+    .headp{
+        font-size: 1.6rem;
+    }
+    .rightp img{
+        padding: 0.6rem;
+        height: 25rem;
+    }
+    .rightp img:hover{
+        scale: 1.1;
+    }
+
+        
+}
+@media only screen and (min-width: 0) and (max-width: 422px){
+    .leftp h3{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .upperpart{
+        padding: 0.3rem;
+    }
+    .rightp img{
+        /* padding: 0.6rem; */
+        height: 18rem;
+        width: 30rem;
+        margin: 0.9rem 0.3rem;
+    }
+    .headp{
+        font-size: 1rem;
+    }
+    .data{
+        padding: 0.4rem;
+    }
+    .data .para h4{
+        font-size: 1.685rem;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 330px){
+    .rightp img{
+        /* padding: 0.6rem; */
+        height: 18rem;
+        width: 25rem;
+        margin: 0.9rem 0.3rem;
+    }
 }

@@ -1,5 +1,5 @@
 @vite('resources/css/forFooter.css')
-<div class="line" style="margin-left: -5px;"></div>
+<!-- <div class="line" style="margin-left: -5px;"></div> -->
 <div class="footer">
 <footer class="flex flex-col  p-4">
     <div class="logos bg-white flex justify-center p-3 gap-8 rounded-xl">
@@ -9,7 +9,7 @@
         <a href="https://codepen.io/utkarsh_001122" target="_blank"><img class="h-10 transition-all hover:scale-125 duration-500" src='images/codepen.svg'  alt="codepen"></a>
         <a href="https://www.google.com" target="_blank"><img class="h-10 transition-all hover:scale-125 duration-500" src='images/google.svg'  alt="google"></a>
     </div>
-    <div class="flex flex-col text-center text-white text-lg cursor-pointer hover:underline p-2">
+    <div class="Fcontent flex flex-col text-center text-white text-lg cursor-pointer hover:underline p-2">
         <span>Content Owned, Updated and Maintained by DR.BRAC. Copyright &copy; 2023, All Rights Reserved.</span>
         <span>Designed and Developed by Utkarsh Shahare</span>
     </div>
