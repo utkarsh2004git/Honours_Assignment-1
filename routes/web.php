@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,18 +14,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/book', function () {
-    return view('book');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/history', function () {
-    return view('history');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
+// Route::get('/about', function () {
+//     return view('about');
+// });
+// Route::get('/book', function () {
+//     return view('book');
+// });
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
+// Route::get('/history', function () {
+//     return view('history');
+// });
+Route::get('/', [MyController::class, 'DisplayHome']);
+Route::get('/about', [MyController::class, 'DisplayAbout']);
+Route::get('/book', [MyController::class, 'DisplayBooks']);
+Route::get('/contact', [MyController::class, 'DisplayContact']);
+Route::get('/history', [MyController::class, 'DisplayHistory']);
+
+
+

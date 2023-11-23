@@ -23,14 +23,17 @@
     padding: 0.4rem;
     color: blue;
     cursor: pointer;
+    border-bottom: 6px solid rgb(108, 187, 255);
 }
 @keyframes head {
     0%{
         color: blue;
+        border-color: black;
     }
-
+    
     50%{
         color: black;
+        border-color: blue;
     }
 }
 .content{
