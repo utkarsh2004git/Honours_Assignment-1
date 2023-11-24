@@ -16,10 +16,10 @@ class MyController extends Controller
         return view("book");
     }
     public function DisplayHistory(){
-        return view("contact");
+        return view("history");
     }
     public function DisplayContact(){
-        return view("history");
+        return view("contact");
     }
 
 }

@@ -19,7 +19,8 @@
 .inner{
     border: 6px solid white;
     border-radius: 1rem;
-    background-color: #ccc;
+    background-color: rgba(255, 255, 255, 0.45);  
+    outline: 3px solid white;
     padding: 2rem;
     width: 90%;
     margin: auto;
@@ -33,7 +34,7 @@
     height: 20rem;
     padding: 1rem;
     width: 28.9rem;
-    border: 7px solid blue;
+    border: 5px solid blue;
 }
 .information{
     padding: 1rem;
@@ -43,14 +44,15 @@
     padding: 0.5rem;
     font-size: 1.2rem;
     color:black;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 .image{
-    /* background: url(../../public/images/imgContact1.jpg); */
+    
     height: 21rem;
     width: 30rem;
     background-size: 100% 100%;
-    animation: change 25s infinite  ;
-
+    animation: change 15s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55)  ;
+    
     padding: 0.5rem;
 }
 @keyframes change {
@@ -77,8 +79,9 @@
     }
 }
 .image-slider{
-    border: 10px solid blue;
+    /* border: 7px solid blue; */
     padding: 0.5rem;
-    background-color:rgb(108, 187, 255) ;
-    border-radius: 1rem;
+    background-color:rgba(108, 186, 255, 0.679) ;
+    /* border-radius: 1rem; */
+    box-shadow: 15px 15px 10px rgba(0, 57, 246, 0.392);
 }

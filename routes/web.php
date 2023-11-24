@@ -29,6 +29,7 @@ use App\Http\Controllers\MyController;
 // Route::get('/history', function () {
 //     return view('history');
 // });
+
 Route::get('/', [MyController::class, 'DisplayHome']);
 Route::get('/about', [MyController::class, 'DisplayAbout']);
 Route::get('/book', [MyController::class, 'DisplayBooks']);
